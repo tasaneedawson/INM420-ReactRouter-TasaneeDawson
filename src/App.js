@@ -5,8 +5,9 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home'
+import About from './pages/About'
+import Users from './pages/Users'
 
 export default function App() {
   return (
@@ -50,46 +51,46 @@ export default function App() {
 }
 
 
-function Home() {
-  return <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Home Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
-      </a>
-    </header>
-  </div>;
-}
+// function Home() {
+//   return <div className="App">
+//     <header className="App-header">
+//       <img src={logo} className="App-logo" alt="logo" />
+//       <p>
+//         Home Edit <code>src/App.js</code> and save to reload.
+//       </p>
+//       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+//         Learn React
+//       </a>
+//     </header>
+//   </div>;
+// }
 
-function About() {
-  return <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        About Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
-      </a>
-    </header>
-  </div>;
-}
+// function About() {
+//   return <div className="App">
+//     <header className="App-header">
+//       <img src={logo} className="App-logo" alt="logo" />
+//       <p>
+//         About Edit <code>src/App.js</code> and save to reload.
+//       </p>
+//       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+//         Learn React
+//       </a>
+//     </header>
+//   </div>;
+// }
 
-function Users() {
-  return <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Users Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
-      </a>
-    </header>
-  </div>;
-}
+// function Users() {
+//   return <div className="App">
+//     <header className="App-header">
+//       <img src={logo} className="App-logo" alt="logo" />
+//       <p>
+//         Users Edit <code>src/App.js</code> and save to reload.
+//       </p>
+//       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
+//         Learn React
+//       </a>
+//     </header>
+//   </div>;
+// }
 
 
