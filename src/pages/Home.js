@@ -1,9 +1,9 @@
 import logo from './../images/logo.svg';
-import './App.css';
+import './../App.css';
 
 export default function Home() {
   return (
-    <div className="App">
+    <div className="App home">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
