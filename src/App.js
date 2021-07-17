@@ -41,11 +41,11 @@ export default function App() {
           </Route>
           <Route path="/contact">
             <Contact />
-            {/* users page */}
+            {/* contact page */}
           </Route>
           <Route path="/projects">
             <Projects />
-            {/* users page */}
+            {/* projects page */}
           </Route>
           <Route path="/">
             <Home />
