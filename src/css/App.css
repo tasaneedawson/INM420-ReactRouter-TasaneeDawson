@@ -23,8 +23,14 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.home .App-header {
+  background-color: #4964da;
+}
 .about .App-header {
-  background-color: #336877;
+  background-color: #21a371;
+}
+.users .App-header {
+  background-color: #eedf5a;
 }
 .App-link {
   color: #61dafb;
