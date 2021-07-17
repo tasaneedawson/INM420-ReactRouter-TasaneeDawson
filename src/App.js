@@ -7,7 +7,8 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home'
 import About from './pages/About'
-import Users from './pages/Users'
+import Projects from './pages/Projects'
+import Contact from './pages/Contact'
 
 export default function App() {
   return (
@@ -23,7 +24,10 @@ export default function App() {
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/users">Users</Link>
+              <Link to="/projects">Projects</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -35,8 +39,12 @@ export default function App() {
             <About />
             {/* about page */}
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/contact">
+            <Contact />
+            {/* users page */}
+          </Route>
+          <Route path="/projects">
+            <Projects />
             {/* users page */}
           </Route>
           <Route path="/">

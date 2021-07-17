@@ -1,13 +1,13 @@
 import logo from './../images/logo.svg';
 import './../css/App.css';
 
-export default function Users() {
+export default function Projects() {
   return (
-    <div className="App users">
+    <div className="App projects">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-        Users Component <code>src/App.js</code> and save to reload.
+      Projects Component <code>src/App.js</code> and save to reload.
       </p>
       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
         Learn React
