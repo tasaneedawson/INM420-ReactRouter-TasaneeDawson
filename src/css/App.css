@@ -32,6 +32,9 @@
 .projects .App-header {
   background-color: #eedf5a;
 }
+.contact .App-header {
+  background-color: #ff9843;
+}
 .App-link {
   color: #61dafb;
 }
