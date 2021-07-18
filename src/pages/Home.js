@@ -1,4 +1,4 @@
-import logo from './../images/logo.svg'
+import logo from './../images/duck.png'
 import './../css/App.css';
 
 export default function Home() {
