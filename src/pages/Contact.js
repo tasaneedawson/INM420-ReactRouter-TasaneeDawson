@@ -7,10 +7,13 @@ export default function Contact() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-      Contact Component <code>src/App.js</code> and save to reload.
+        Contact Us.
       </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
+      <a className="App-link" href="https://whatsupduck.me" target="_blank" rel="noopener noreferrer" >
+        whatsupduck.me
+      </a>
+      <a className="App-link" href="https://whatsupduck.me" target="_blank" rel="noopener noreferrer" >
+        info@whatsupduck.me
       </a>
     </header>
   </div>

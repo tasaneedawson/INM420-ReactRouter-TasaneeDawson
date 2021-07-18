@@ -6,11 +6,11 @@ export default function Home() {
     <div className="App home">
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Home Component <code>src/App.js</code> and save to reload.
+      <p class="home">
+        Home
       </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
+      <a className="App-link" href="https://whatsupduck.me" target="_blank" rel="noopener noreferrer" >
+        Welcome!
       </a>
     </header>
   </div>

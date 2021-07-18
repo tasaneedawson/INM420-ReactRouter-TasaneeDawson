@@ -7,10 +7,10 @@ export default function About() {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-        About Component <code>src/App.js</code> and save to reload.
+        What's Up Duck?
       </p>
-      <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer" >
-        Learn React
+      <a className="App-link about-type" href="https://whatsupduck.me" target="_blank" rel="noopener noreferrer" >
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
       </a>
     </header>
   </div>

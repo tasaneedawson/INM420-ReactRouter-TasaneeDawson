@@ -1,9 +1,20 @@
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+
+}
+ul {
+  list-style-type: none;
+  padding-inline-start: 10px;
+}
+a {
+  color: #336c7c;
+  text-decoration: none;
+}
 .App {
   text-align: center;
 }
-
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
@@ -14,7 +25,7 @@
 }
 
 .App-header {
-  background-color: #21a371;
+  background-color: #26cece;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,20 +34,29 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-/* .home .App-header {
-  background-color: #4964da;
+.home .App-header {
+  background-color: #26cece;
 }
 .about .App-header {
-  background-color: #21a371;
+  background-color: #74d1ad;
 }
 .projects .App-header {
-  background-color: #eedf5a;
+  background-color: #f79bc9;
 }
 .contact .App-header {
-  background-color: #ff9843;
-} */
+  background-color: #86b7ff;
+}
 .App-link {
-  color: #61dafb;
+  color: #0f9ac0;
+  text-decoration: none;
+  font-size: .8em;
+}
+.App-link:hover {
+  color: #0e8eb1;
+  font-weight: 800;
+}
+.home {
+  color: aliceblue;
 }
 
 @keyframes App-logo-spin {
@@ -44,6 +64,14 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
+  }
+}
+@media screen and (min-width: 576px) {
+  ul {
+    display: flex;
+  }
+  ul li {
+    padding-right: 20px;
   }
 }
