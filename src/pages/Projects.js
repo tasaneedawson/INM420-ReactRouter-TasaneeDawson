@@ -1,5 +1,7 @@
 import logo from './../images/duck.png'
 import './../css/App.css';
+import Project1 from './pages/Project1';
+import Project2 from './pages/Project2';
 
 export default function Projects() {
   return (
