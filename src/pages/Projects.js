@@ -21,16 +21,11 @@ export default function Projects() {
         </p>
         <ul>
           <li>
-            <Link to={`${match.url}/components`}>Components</Link>
+            <Link to={`${match.url}/project1`}>Project#1</Link>
           </li>
           <li>
-            <Link to={`${match.url}/components`}>Components</Link>
+            <Link to={`${match.url}/project2`}>Project#2</Link>
           </li>
-          <li>
-          <Link to={`${match.url}/props-v-state`}>
-            Props v. State
-          </Link>
-        </li>
         </ul>
       </header>
       {/* The Topics page has its own <Switch> with more routes
@@ -38,10 +33,10 @@ export default function Projects() {
           2nd <Route> here as an "index" page for all topics, or
           the page that is shown when no topic is selected */}
       <Switch>
-        <Route path={`${match.path}/:project1`}>
+        <Route path={`${match.path}./project1`}>
           <Project1 />
         </Route>
-        <Route path={`${match.path}/:project2`}>
+        <Route path={`${match.path}./project2`}>
           <Project2 />
         </Route>
         <Route path={match.path}>

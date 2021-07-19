@@ -21,7 +21,6 @@ export default function App() {
         <nav>
           <ul>
             <li>
-              {/* <a href="">something</a> */}
               <Link to="/">Home</Link>
             </li>
             <li>

@@ -21,3 +21,8 @@ export default function Projects() {
     </div>
   );
 }
+
+// function Project() {
+//   let { projectId } = useParams();
+//   return <h3>Requested topic ID: {projectId}</h3>;
+// }
