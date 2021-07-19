@@ -43,6 +43,9 @@ a {
 .projects .App-header {
   background-color: #f79bc9;
 }
+.project1 .App-header {
+  background-color: #df742e;
+}
 .contact .App-header {
   background-color: #86b7ff;
 }
