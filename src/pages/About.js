@@ -1,6 +1,7 @@
 import logo from './../images/duck.png'
 import './../css/App.css';
 
+/* Bouat Page */
 export default function About() {
   return (
     <div className="App about">

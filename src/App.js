@@ -4,15 +4,12 @@ import {
   Switch,
   Route,
   Link,
-  // useRouteMatch,
-  // useParams
 } from "react-router-dom";
+/* Pages : 4 main pages */
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
-// import Project1 from './pages/Project1';
-// import Project2 from './pages/Project2';
 
 export default function App() {
   return (
@@ -35,8 +32,6 @@ export default function App() {
           </ul>
         </nav>
 
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
             <About />

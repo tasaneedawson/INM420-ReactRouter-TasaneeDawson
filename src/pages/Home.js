@@ -1,6 +1,7 @@
 import logo from './../images/duck.png'
 import './../css/App.css';
 
+/* Home page */
 export default function Home() {
   return (
     <div className="App home">

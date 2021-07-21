@@ -1,6 +1,7 @@
 import logo from './../images/duck.png'
 import './../css/App.css';
 
+/* Contact Page */
 export default function Contact() {
   return (
     <div className="App contact">

@@ -10,6 +10,7 @@ import {
 import Project1 from './Project1';
 import Project2 from './Project2';
 
+/* Projects Main Page */
 export default function Projects() {
   let match = useRouteMatch();
   return (
@@ -28,10 +29,7 @@ export default function Projects() {
           </li>
         </ul>
       </header>
-      {/* The Topics page has its own <Switch> with more routes
-          that build on the /topics URL path. You can think of the
-          2nd <Route> here as an "index" page for all topics, or
-          the page that is shown when no topic is selected */}
+
       <Switch>
         <Route path={`${match.path}./project1`}>
           <Project1 />

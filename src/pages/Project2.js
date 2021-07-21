@@ -4,10 +4,10 @@ import {
   useParams
 } from "react-router-dom";
 
+/* Project#2 Page */
 export default function Projects() {
   let { project2 } = useParams();
   return (
-    // <h3>Request project ID: {project2}</h3>
     <div className="App project2">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -21,8 +21,3 @@ export default function Projects() {
     </div>
   );
 }
-
-// function Project() {
-//   let { projectId } = useParams();
-//   return <h3>Requested topic ID: {projectId}</h3>;
-// }
