@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
   Link,
+  NavLink,
 } from "react-router-dom";
 /* Pages : 4 main pages */
 import Home from './pages/Home'
@@ -21,13 +22,13 @@ export default function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <NavLink to="/about" activeClassName="current">About</NavLink>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <NavLink to="/projects" activeClassName="current">Projects</NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact" activeClassName="current">Contact</NavLink>
             </li>
           </ul>
         </nav>
